@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-left{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-right{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: rgb(29, 11, 11);
+}
+
+.nav-right a:hover{
+    color: #ccc;
+}   
+
+.nav-right a:active{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
