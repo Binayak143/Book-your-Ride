@@ -3,11 +3,17 @@
     padding: 0;
 }
 
+.nav-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
 .nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    background-color: #000;
 }
 
 .nav-left{
@@ -20,9 +26,18 @@
     gap: 50px;
 }
 
+.nav-right .signup{
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
 .nav-right a{
     text-decoration: none;
-    color: rgb(29, 11, 11);
+    color: #fff;
+    font-size: 18px;
 }
 
 .nav-right a:hover{
@@ -32,6 +47,77 @@
 .nav-right a:active{
     color: #000;
 }
+
+.nav-right .offers {
+    margin-top: 10px;
+}
+.nav-right .monthly-rental {
+    margin-top: 10px;
+}
+.nav-right .list-vehicle {
+    margin-top: 10px;
+}
+.nav-right .login {
+    margin-top: 10px;
+}
+
+/* Home  page */
+.home-page{
+    background-image: url(assests/BG_home.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    filter: brightness(0.5);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+.home-page-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
