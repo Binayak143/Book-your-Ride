@@ -63,99 +63,164 @@
 }
 
 /* Home  page */
+
 .home-page{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    height: 100vh;
+    width: 100%;
 }
 
 .left-home-content{
     width: 50%;
-    height: 100%;
-    padding-left: 100px;
-}   
-
-.left-home-content .container{
-    width: 100%;
-    height: 100%;
+    height: 70%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;   
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-.left-home-content .container h1{
+.left-home-content h1{
     font-size: 40px;
     font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.left-home-content .container h2{
+.left-home-content p{
     font-size: 20px;
     font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.left-home-content .container .form-group{
-    display: flex;
-    gap: 10px;
-}
-
-.left-home-content .container .form-group .city-select{
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-.left-home-content .container .form-group .icon{
-    font-size: 20px;
-}
-
-.left-home-content .container .date-time{
-    display: flex;
-    gap: 10px;
-}
-
-.left-home-content .container .date-time input{
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-.left-home-content .container .date-time input:focus{
-    outline: none;
-}
 
 .right-home-content{
     width: 50%;
     height: 100%;
+    object-fit: cover;
 }
 
 .right-home-content img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
+.left-home-content .form-group label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+    margin-top: 10px;   
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    font-size: 20px;
+}
 
+.left-home-content .form-group select{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
 
+.left-home-content .form-group select option{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
 
+}
 
+.left-home-content .form-group input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+}
 
+.left-home-content .form-group input::placeholder{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
 
+.left-home-content .form-group button{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.left-home-content .form-group button:hover{
+    background-color: #ccc;
+    color: #000;
+}
 
 
 
